@@ -300,6 +300,11 @@ img {
   border-radius: 50%;
   background-color: #4d5ae5;
 }
+
+.social-media-picture {
+  fill: #fff;
+}
+
 .social-media-list-item:hover .social-media-link,
 .social-media-list-item:focus .social-media-link {
   background-color: #31d0aa;
