@@ -305,10 +305,14 @@ img {
   fill: #fff;
 }
 
-.social-media-list-item:hover .social-media-link,
-.social-media-list-item:focus .social-media-link {
+.social-media-link:hover {
   background-color: #31d0aa;
 }
+
+.social-media-link:focus {
+  background-color: #31d0aa;
+}
+
 .customers-title {
   font-size: 36px;
   line-height: 1.11;
@@ -345,8 +349,8 @@ img {
 .client-list-item:focus .client-link {
   border: 1px solid #404bbf;
 }
-.client-list-item:hover .client-picture,
-.client-list-item:focus .client-picture {
+.client-link:hover .client-picture,
+.client-link:focus .client-picture {
   fill: #404bbf;
 }
 /* ==========PORTFOLIO========== */
