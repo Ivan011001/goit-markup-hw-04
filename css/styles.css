@@ -305,12 +305,9 @@ img {
   fill: #fff;
 }
 
-.social-media-link:hover {
-  background-color: #31d0aa;
-}
-
+.social-media-link:hover,
 .social-media-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .customers-title {
@@ -491,5 +488,10 @@ img {
 
 .footer-social-media-list {
   gap: 16px;
+}
+
+.footer-social-media-link:hover,
+.footer-social-media-link:focus {
+  background-color: #31d0aa;
 }
 /* =========== /FOOTER =========== */
